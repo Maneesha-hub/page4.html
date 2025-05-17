@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body background="https://images.pexels.com/photos/4466461/pexels-photo-4466461.jpeg">
+  <h1>
+   <form action="./page0.html" method="get">
+    <fieldset>
+     <Center><legend>Login Details</legend>
+
+      Name: <br>
+      <input type="text" name="name" pattern="[A-Za-z ]+" title="Only letters and spaces allowed" required><br><br>
+
+      Date of Birth: <br>
+      <input type="date" name="dob" required><br><br>
+
+      Gender: <br>
+      <input type="radio" name="gender" value="Male" required> Male<br><br>
+      <input type="radio" name="gender" value="Female"> Female<br><br>
+
+      WhatsApp Number: <br>
+      <input type="text" name="whatsapp" pattern="\d{10}" title="Enter a 10-digit number" required><br><br>
+
+      Email ID: <br>
+      <input type="email" name="email" required><br><br>
+      Address: <input type="text" name="address"><br><br>
+
+      District:
+      <select name="district">
+        <option value="enter District">enter district</option>
+        <option value="Rangareddy">Rangareddy</option>
+      </select><br><br>
+
+      Village: <input type="text" name="village"><br><br>
+      Pincode: <input type="text" name="pincode"><br><br>
+
+      <input type="submit" value="Submit"><br>
+      </Center>
+      
+    </fieldset>
+  </form> 
+  </h1>
+</body>
+</html>
